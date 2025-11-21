@@ -23,3 +23,14 @@ const conteudo_telas = {
         </div>
     `
 };
+
+// -----------------------------------------------------
+// DADOS SIMULADOS DE PRODUTOS
+// -----------------------------------------------------
+
+const lista_de_produtos = Array.from({ length: 20 }, (_, indice) => ({
+    id_produto: indice + 1,
+    nome_produto: `Produto ${indice + 1}`,
+    preco_produto: (10 + indice).toFixed(2),
+    imagem_produto: "https://via.placeholder.com/200x150"
+}));
