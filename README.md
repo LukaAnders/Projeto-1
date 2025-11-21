@@ -1,4 +1,3 @@
-### Instruções de uso
 
             Repositorio-para-fins-academicos
 
@@ -10,6 +9,8 @@ Integrante 4: Luka Anders da Cruz, Idade 18 Anos.
 Integrante 5: 
 Tecnologias utilizadas: PHP, HTML, CSS, JAVASCRIPT, C++, Java.
 Tipo de licença: Uso público.
+
+### Instruções de uso
 
 1. Salve cada bloco em um arquivo com o nome indicado: `index.html`, `styles.css` e `script.js`.
 2. Coloque todos os arquivos na mesma pasta.
