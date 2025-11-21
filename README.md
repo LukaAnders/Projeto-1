@@ -1,8 +1,5 @@
-Link do Site : https://projeto-1-beta-three.vercel.app/
-
-
 ### Instruções de uso
-
+Link do Site : https://projeto-1-beta-three.vercel.app/
             Repositorio-para-fins-academicos
 
 Nome do ecommerce: Sites compras.
