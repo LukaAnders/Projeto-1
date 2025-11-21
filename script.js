@@ -84,3 +84,23 @@ function paginaProxima() {
         renderizar_produtos();
     }
 }
+
+// -----------------------------------------------------
+// FUNÇÃO DE NAVEGAÇÃO ENTRE TELAS (SPA)
+// -----------------------------------------------------
+
+function navegar(tela_escolhida) {
+    const div_conteudo = document.getElementById("conteudo");
+    div_conteudo.innerHTML = conteudo_telas[tela_escolhida];
+
+    // Se entrar na página de produtos, renderiza a lista
+    if (tela_escolhida === "produtos") {
+        pagina_atual = 1;
+
+        // Aguarda o HTML ser inserido antes de renderizar os produtos
+        setTimeout(renderizar_produtos, 0);
+    }
+}
+
+// Inicia na tela inicial
+navegar("home");
