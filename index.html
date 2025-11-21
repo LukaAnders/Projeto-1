@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecommerce SPA Básico - Arquivos Separados</title>
+<!-- link para o arquivo CSS externo -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<!-- NAVBAR SIMPLES COM BOTÕES DE TROCA DE TELA (SPA) -->
+<header>
+<h2>Ecommerce Básico</h2>
+<nav class="navegacao">
+<a onclick="navegar('home')">Home</a>
+<a onclick="navegar('produtos')">Produtos</a>
+<a onclick="navegar('sobre')">Sobre</a>
+</nav>
+</header>
+
+
+<!-- Onde as telas serão carregadas dinamicamente -->
+<div id="conteudo" class="container"></div>
+
+
+<!-- script externo -->
+<script src="script.js"></script>
+</body>
+</html>
