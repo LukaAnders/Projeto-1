@@ -34,3 +34,33 @@ const lista_de_produtos = Array.from({ length: 20 }, (_, indice) => ({
     preco_produto: (10 + indice).toFixed(2),
     imagem_produto: "https://via.placeholder.com/200x150"
 }));
+
+// -----------------------------------------------------
+// CONFIGURAÇÕES DE PAGINAÇÃO
+// -----------------------------------------------------
+
+let pagina_atual = 1;
+const itens_por_pagina = 6;
+
+// Função que renderiza os produtos da página atual
+function renderizar_produtos() {
+    const indice_inicio = (pagina_atual - 1) * itens_por_pagina;
+    const indice_fim = indice_inicio + itens_por_pagina;
+
+    const produtos_da_pagina = lista_de_produtos.slice(indice_inicio, indice_fim);
+
+    const container_de_produtos = document.getElementById("produtos-lista");
+    container_de_produtos.innerHTML = "";
+
+    produtos_da_pagina.forEach(produto => {
+        const elemento_card = document.createElement("div");
+        elemento_card.className = "produto-card";
+
+        elemento_card.innerHTML = `
+            <img src="${produto.imagem_produto}" alt="${produto.nome_produto}">
+            <h3>${produto.nome_produto}</h3>
+            <p>Preço: R$ ${produto.preco_produto}</p>
+        `;
+
+        container_de_produtos.appendChild(elemento_card);
+    });
