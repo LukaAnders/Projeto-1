@@ -63,4 +63,4 @@ function renderizar_produtos() {
         `;
 
         container_de_produtos.appendChild(elemento_card);
-    });
+    })};
