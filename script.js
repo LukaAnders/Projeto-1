@@ -64,3 +64,23 @@ function renderizar_produtos() {
 
         container_de_produtos.appendChild(elemento_card);
     })};
+
+    // Atualiza estado dos botões
+    document.getElementById("botao-anterior").disabled = pagina_atual === 1;
+    document.getElementById("botao-proximo").disabled = indice_fim >= lista_de_produtos.length;
+
+function paginaAnterior() {
+    if (pagina_atual > 1) {
+        pagina_atual--;
+        renderizar_produtos();
+    }
+}
+
+function paginaProxima() {
+    const total_paginas = Math.ceil(lista_de_produtos.length / itens_por_pagina);
+
+    if (pagina_atual < total_paginas) {
+        pagina_atual++;
+        renderizar_produtos();
+    }
+}
