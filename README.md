@@ -6,7 +6,7 @@ Link do Site : https://projeto-1-beta-three.vercel.app/
 
 Nome do ecommerce: Sites compras.
 Integrante líder 1: Matheus Onisanti, Idade 20 anos.
-Integrante 2: vitor de lima ortiz
+Integrante 2: vitor de lima ortiz, idade 18 anos.
 Integrante 3: 
 Integrante 4: Luka Anders da Cruz, Idade 18 Anos.
 Integrante 5: 
