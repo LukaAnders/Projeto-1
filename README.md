@@ -10,7 +10,7 @@ Integrante 2: vitor de lima ortiz, idade 18 anos.
 Integrante 3: 
 Integrante 4: Luka Anders da Cruz, Idade 18 Anos.
 Integrante 5: 
-Tecnologias utilizadas: PHP, HTML, CSS, JAVASCRIPT, C++, Java.
+Tecnologias utilizadas: PHP, HTML, CSS, JAVASCRIPT, C++.
 Tipo de licença: Uso público.
 
 ### Instruções de uso
